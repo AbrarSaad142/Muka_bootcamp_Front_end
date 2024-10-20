@@ -1,0 +1,29 @@
+
+#profile-card {
+    width: 500px;
+    padding: 50px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.profile-pic {
+    width: 100px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+#profile-card p {
+    color: #666;
+}
+h2, p {
+    margin: 10px 10px;
+}
+.description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
