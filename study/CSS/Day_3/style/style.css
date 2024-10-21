@@ -1,0 +1,159 @@
+.header h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid black;
+    border-width: 5px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+}
+
+.header {
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul {
+
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px 5px;
+    padding: 25px;
+}
+
+.header li {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+
+}
+
+a:active {
+    color: gray;
+}
+
+a:hover {
+    color: gray;
+}
+
+.header img {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: inline;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box1 {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 700px;
+    overflow: hidden;
+    margin: 30px 300px;
+
+}
+
+.box1 img {
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+    display: inline;
+}
+
+.content {
+    justify-content: center;
+    padding: 10px;
+}
+
+.box2 {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 700px;
+    overflow: hidden;
+    margin: 30px 300px;
+}
+
+.box2 img {
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+    display: inline;
+}
+
+.box3 {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 700px;
+
+    margin: 30px 300px;
+}
+
+.box3 img {
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    object-fit: cover
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.container img{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+.container p{
+    text-align: right;
+    flex: 1;
+    padding: 0 30px;
+}
+.cookbook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cookbook img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
